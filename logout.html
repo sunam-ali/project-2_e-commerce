@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+    <!-- navbar start here  -->
+        <nav class="navbar">
+            <ul class="upper-nav">
+                <div class="upper-nav_items">
+                    <i class="fas fa-bars fa-2x"  id="menu_icon"></i>
+                    <div id="menu" class="hide">
+                        <li class="upper-nav_item"><a href="index.html" class="upper_nav_link">Home</a></li>
+                        <li class="upper-nav_item"><a href="register.html" class="upper_nav_link">Register</a></li>
+                        <li class="upper-nav_item"><a href="login.html" class="upper_nav_link">Login</a></li>
+                        <li class="upper-nav_item"><a href="logout.html" class="upper_nav_link">Logout</a></li>
+                        <li class="upper-nav_item"><a href="contact.html" class="upper_nav_link">Contact</a></li>
+                    </div>
+                </div>
+                <div class="upper-nav_profile">
+                    <span>
+                        <a href="profile.html" class="profile-name_edit"><i class="fa-solid fa-pen-to-square"></i> Hello, Sunam</a>
+                    </span>
+                    <a href="profile.html">
+                        <img class="profile_img" src="images/profile.png" alt="profile_image">
+                    </a>
+                 </div>
+            </ul>
+            <ul class="lower-nav">
+                <li class="lower-nav_brand"><a href="#" class="lower-nav_link">Sunam <span id="brand">Express</span></a></li>
+                <li class="lower-nav_cart">
+                    <a href="cart.html" class="lower-nav_link">
+                        <span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                            Cart 2 Products - $124.40
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    <!-- navbar end here  -->
+    </header>
+     <main>
+        
+     </main>
+
+     <footer class="footer">
+        <div class="left-side">
+            <label for="subscribe">Subscribe to Newsletter :</label>
+            <input type="email" id="subscribe" class="footer-input" placeholder="Your Email Address" name="email">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div class="right-side">
+            <p>&copy; Copyright 2025 by Sunam Express. All rights reserved</p>
+        </div>
+     </footer>
+     <script src="main.js"></script>
+</body>
+</html>
